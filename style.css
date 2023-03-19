@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #333;
+    padding: 40px;
+}
+h1, h2, h3, h4, h5, h6, h7{
+    font-size: 25px;
+    color: white;
+}
+p {
+    font-size: 1rem;
+    color: white;
+}
+
+
+.wraper{
+      display: flex;
+      background-color: darkcyan;
+      flex-direction: row-reverse;
+      border-radius: 10px;
+}
+
+.main-content{
+    padding-left: 15px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.User_photo{
+    margin-top: 22px;
+    border-radius: 30%;
+    margin-bottom: 25px;
+}
+
+.SideBar{
+    width: 370px;
+    background: #7f93c0;
+    border-radius: 10px;
+}
+
+.phone,
+.email{
+    font-size: 80%;
+    padding-left: 10%;
+    margin: 48px 0px 0px 40px;
+}
+
+body {
+    color: #333;
+}
+a {
+    color: #0015ff;
+    text-decoration: none;
+}
+
+.TechSkills,
+.SoftSkills{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 48px 0px 8px 25px;
+}
+.phone,
+.email {
+    margin: 48px 0px 15px 15px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.email{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px 15px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #efa79e 0%, #f03030 51%, #ef9e9e 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+
+}
+
+.phone{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px 8px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #cf9eef 0%, #b030f0 51%, #dd9eef 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+
+.contacts{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 48px 0px 8px 15px;
+}
+
+/*hovers*/
+
+.link:hover,
+.phone:hover,
+.email:hover {
+    background-position: right center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.item{
+    margin: 0
+}
+
+.skill{
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+
+.li{
+    color: #333333;
+}
+
+.text{
+    font-family: Monserat,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: white;
+}
+
+.profession{
+    font-family: Monserat,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-height: 17px;
+}
+
+.name{
+    font-family: Monserat,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    font-height: 55px;
+    margin: 0 0 28px 0;
+}
+
+.descr{
+    width: 555px;
+    font-family: Monserat,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-height: 24px;
+    color: rgb(215, 215, 215);
+}
+
+.aboutMe{
+    margin-bottom: 64px;
+}
+
+/*
+email comment :
+*/
